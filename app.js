@@ -47,6 +47,9 @@ app.use("*",(req,res)=>{
     res.status(404).json({status:"fail",data:"Not Found"})
 });
 
+// postmen linl
+// https://www.postman.com/dark-shadow-118698/workspace/sales-analytic/collection/29231456-6a9ca137-25a3-4b26-afc3-aa72eb59b8ab?action=share&creator=29231456
+
 
 module.exports = app;
 
